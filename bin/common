@@ -1,0 +1,4 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+SOLUTION_DIR="${DIR}/.."
+python3 ${DIR}/common.py ${SOLUTION_DIR}/input/PI-Electronique.csv ${SOLUTION_DIR}/input/VENTAS-607-MARZO-MAGYCORP.csv ${SOLUTION_DIR}/output/common.csv
